@@ -48,11 +48,7 @@ const topNStudentsAttendees = (students, attendees, N) => {
 
 }
 
-items = topNStudentsAttendees(["Eden", "Refael", "Yoni", "Nitzan", "Hadas"], [["Eden", "Refael", "Yoni", "Nitzan", "Hadas", "Ortal"], 
+topNStudentsAttendees(["Eden", "Refael", "Yoni", "Nitzan", "Hadas"], [["Eden", "Refael", "Yoni", "Nitzan", "Hadas", "Ortal"], 
                                                                       ["Berry", "Nitzan", "Yoni", "Eden", "Hadas", "Ortal"], 
                                                                       ["Maxim", "Ortal", "Yoni", "Refael", "Nitzan", "Alex"], 
                                                                       ["Eden", "Andrew", "Yoni", "Nitzan", "Ortal","Nitzan"]], 3)
-
-for (item of items){
-    console.log(item[0], item[1])
-}
